@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-var keyLeft = keyboard_check(ord("A"));
-var keyRight = keyboard_check(ord("D"));
-var keyUp = keyboard_check(ord("W"));
-var keyDown = keyboard_check(ord("S"));
+var keyLeft = keyboard_check(vk_left);
+var keyRight = keyboard_check(vk_right);
+var keyUp = keyboard_check(vk_up);
+var keyDown = keyboard_check(vk_down);
 
 var moveHorizontal = keyRight - keyLeft;
 var moveVertical = keyDown - keyUp;
