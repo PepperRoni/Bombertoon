@@ -8,6 +8,23 @@ var keyDown = keyboard_check(ord("S"));
 var moveHorizontal = keyRight - keyLeft;
 var moveVertical = keyDown - keyUp;
 
+if (moveHorizontal < 0)
+{
+	image_index = 3;
+}
+else if (moveHorizontal > 0)
+{
+	image_index = 1;
+}
+if (moveVertical < 0)
+{
+	image_index = 2;
+}
+else if (moveVertical > 0)
+{
+	image_index = 0;
+}
+
 playerSpeedH = moveHorizontal * walkSpeed;
 playerSpeedY = moveVertical * walkSpeed;
 
