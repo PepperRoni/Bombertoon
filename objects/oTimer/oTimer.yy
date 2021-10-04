@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sTimer",
+    "path": "sprites/sTimer/sTimer.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -29,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Timer",
+  "name": "oTimer",
   "tags": [],
   "resourceType": "GMObject",
 }

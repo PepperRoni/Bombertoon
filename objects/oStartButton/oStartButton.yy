@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite5",
-    "path": "sprites/Sprite5/Sprite5.yy",
+    "name": "sStartButton",
+    "path": "sprites/sStartButton/sStartButton.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "StartButton",
+  "name": "oStartButton",
   "tags": [],
   "resourceType": "GMObject",
 }
