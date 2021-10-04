@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":3,},
+    {"id":{"name":"Timer","path":"objects/Timer/Timer.yy",},"order":5,},
     {"id":{"name":"sBomb","path":"sprites/sBomb/sBomb.yy",},"order":4,},
     {"id":{"name":"oPlayer2","path":"objects/oPlayer2/oPlayer2.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
