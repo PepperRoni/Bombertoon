@@ -5,6 +5,8 @@ var keyRight = keyboard_check(ord("D"));
 var keyUp = keyboard_check(ord("W"));
 var keyDown = keyboard_check(ord("S"));
 
+inp_Bomb = keyboard_check_pressed(vk_space);
+
 var moveHorizontal = keyRight - keyLeft;
 var moveVertical = keyDown - keyUp;
 
@@ -53,6 +55,16 @@ if (place_meeting(x, y + + playerSpeedY, oWall))
 x += playerSpeedH;
 y += playerSpeedY;
 
+if cooldownBombAble == true
+{
+	if(inp_Bomb)
+	{
+		instance_create_depth(x, y, depth, oBomb);
+		alarm[0] = cooldownBombTime;
+		cooldownBombAble = false;
+	}
+}
+
 if cooldownAble == true
 {
 	if (place_meeting(x, y, oBomb))
@@ -61,8 +73,8 @@ if cooldownAble == true
 		//playerSpeedY *=-1;
 		if (hp<=0)
 		{			
-			show_message("you died");
-			instance_destroy(oPlayer);
+			show_message("Boom");
+			instance_destroy(oBomb);
 		}
 		alarm[0] = cooldownTime;
 		cooldownAble = false;
