@@ -31,3 +31,19 @@ if (place_meeting(x, y + + playerSpeedY, oWall))
 x += playerSpeedH;
 y += playerSpeedY;
 
+
+if cooldownAble == true
+{
+	if (place_meeting(x, y, oBomb))
+	{
+		hp -= 5;
+		//playerSpeedY *=-1;
+		if (hp<=0)
+		{			
+			show_message("you died");
+			instance_destroy(oPlayer);
+		}
+		alarm[0] = cooldownTime;
+		cooldownAble = false;
+	}
+}
