@@ -2,20 +2,14 @@
 // You can write your code in this editor
 var keyLeft = keyboard_check(ord("A"));
 var keyRight = keyboard_check(ord("D"));
-var keyUp = keyboard_check(ord("W"));
-var keyDown = keyboard_check(ord("S"));
+keyUp = keyboard_check(ord("W"));
+keyDown = keyboard_check(ord("S"));
 
 var moveHorizontal = keyRight - keyLeft;
 var moveVertical = keyDown - keyUp;
 
 playerSpeedH = moveHorizontal * walkSpeed;
 playerSpeedY = moveVertical * walkSpeed;
-
-if (playerSpeedH != 0 && playerSpeedY != 0)
-{
-	playerSpeedY = 0;
-}
-
 
 if (place_meeting(x + playerSpeedH, y, oWall))
 {
