@@ -99,6 +99,6 @@ if cooldownAble == true
 
 if (hp <=0 && playerdeathCooldownAble == true)
 {
-	instance_activate_object(oPlayer2);
+	instance_activate_object(oPlayer);
 	hp = 10;
 }
