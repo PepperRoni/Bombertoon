@@ -9,3 +9,6 @@ cooldownAble = true; //can take damage from bomb
 
 cooldownBombTime = 120;
 cooldownBombAble = true;
+
+image_speed = 0;
+

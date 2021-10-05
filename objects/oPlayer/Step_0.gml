@@ -12,19 +12,28 @@ var moveVertical = keyDown - keyUp;
 
 if (moveHorizontal < 0)
 {
-	image_index = 3;
+	image_speed = walkSpeed / 3;
+	sprite_index = sSidePlayer1;
+	image_xscale *= -1;
 }
 else if (moveHorizontal > 0)
 {
-	image_index = 1;
+	image_speed = walkSpeed / 3;
+	sprite_index = sSidePlayer1;
 }
 if (moveVertical < 0)
 {
-	image_index = 2;
+	image_speed = walkSpeed / 3;
+	sprite_index = sBackPlayer1;
 }
-else if (moveVertical > 0)
+if (moveVertical > 0)
 {
-	image_index = 0;
+	image_speed = walkSpeed / 3;
+	sprite_index = sFrontPlayer1;	
+}
+if (keyboard_check(vk_nokey))
+{
+	image_speed = 0;
 }
 
 playerSpeedH = moveHorizontal * walkSpeed;
