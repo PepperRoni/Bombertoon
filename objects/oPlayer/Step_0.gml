@@ -67,17 +67,15 @@ if cooldownBombAble == true
 
 if cooldownAble == true
 {
-	if (place_meeting(x, y, oBomb2))
+	if (place_meeting(x, y, oBomb))
 	{
-		if(cooldownBombAble == true)
-		{
-			hp -= 5;
-		}
+		hp -= 5;
+		flash = 8;
 		//playerSpeedY *=-1;
 		if (hp<=0)
 		{			
 			show_message("Boom");
-			instance_destroy(oBomb2);
+			instance_destroy(oBomb);
 		}
 		alarm[0] = cooldownTime;
 		cooldownAble = false;
