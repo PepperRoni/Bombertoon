@@ -33,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBomb",
+  "name": "oBomb2",
   "tags": [
     "player1bomb",
   ],

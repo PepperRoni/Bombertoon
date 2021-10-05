@@ -3,7 +3,7 @@
     "name": "sPlayer1",
     "path": "sprites/sPlayer1/sPlayer1.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
