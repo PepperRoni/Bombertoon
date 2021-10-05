@@ -3,11 +3,11 @@
 if (player2Floor)
 {
 	//player2Score -= 100;
-	//image_index = 0;
+	//neutralFloor
 }
 if(neutralFloor)
 {
-//image_index = 1;
+//player1Floor
 //player1Score += 100;
 }
 
@@ -17,10 +17,10 @@ if(neutralFloor)
 if (player1Floor)
 {
 	//player1Score -= 100;
-	//image_index = 0;
+	//neutralFloor
 }
 if(neutralFloor)
 {
-//image_index = 2;
+//player2Floor
 //player2Score += 100;
 }
