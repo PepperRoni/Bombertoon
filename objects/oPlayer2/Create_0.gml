@@ -10,5 +10,7 @@ cooldownAble = true; //can take damage from bomb
 cooldownBombTime = 120;
 cooldownBombAble = true;
 
-playerdeathCooldownTime = 60;
-playerdeathCooldownAble = true;
+playerdeathCooldownTime = 120;
+playerdeathCooldownAble = 60;
+
+alarm[1] = room_speed * 3;
