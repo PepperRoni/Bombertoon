@@ -70,6 +70,7 @@ if cooldownAble == true
 	if (place_meeting(x, y, oBomb))
 	{
 		hp -= 5;
+		flash = 8;
 		//playerSpeedY *=-1;
 		if (hp<=0)
 		{			

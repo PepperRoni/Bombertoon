@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sTimer","path":"sprites/sTimer/sTimer.yy",},"order":5,},
+    {"id":{"name":"shWithe","path":"shaders/shWithe/shWithe.yy",},"order":0,},
     {"id":{"name":"sStartButton","path":"sprites/sStartButton/sStartButton.yy",},"order":3,},
     {"id":{"name":"sprSplash","path":"sprites/sprSplash/sprSplash.yy",},"order":8,},
     {"id":{"name":"oTimer","path":"objects/oTimer/oTimer.yy",},"order":5,},
