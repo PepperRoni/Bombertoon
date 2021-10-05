@@ -99,8 +99,8 @@ if (cooldownAble == true)
 			instance_destroy(oBomb);	
 			instance_deactivate_object(oPlayer2);
 		
-			alarm[0] = playerdeathCooldownTime;
-			playerdeathCooldownAble = false;			
+			//alarm[0] = playerdeathCooldownTime;
+			//playerdeathCooldownAble = false;			
 		}
 		
 		flash = 8;
