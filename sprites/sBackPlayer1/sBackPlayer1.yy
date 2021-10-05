@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Player 1",
+    "path": "folders/Sprites/Player 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBackPlayer1",

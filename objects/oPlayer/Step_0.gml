@@ -14,12 +14,21 @@ if (moveHorizontal < 0)
 {
 	image_speed = walkSpeed / 3;
 	sprite_index = sSidePlayer1;
+	if(image_xscale > 0)
+	{
 	image_xscale *= -1;
+	}
+	
 }
 else if (moveHorizontal > 0)
 {
 	image_speed = walkSpeed / 3;
 	sprite_index = sSidePlayer1;
+	if(image_xscale < 0)
+	{
+	image_xscale *= -1;
+	}
+	
 }
 if (moveVertical < 0)
 {

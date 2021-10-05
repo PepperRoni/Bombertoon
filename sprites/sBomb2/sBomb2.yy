@@ -131,7 +131,7 @@
     "spriteId": {"name":"sBomb2","path":"sprites/sBomb2/sBomb2.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 20.0,
+    "playbackSpeed": 25.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
