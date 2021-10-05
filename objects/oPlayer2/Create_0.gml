@@ -13,4 +13,4 @@ cooldownBombAble = true;
 playerdeathCooldownTime = 120;
 playerdeathCooldownAble = 60;
 
-alarm[1] = room_speed * 3;
+alarm[1] = room_speed * 6;
