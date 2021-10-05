@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-walkSpeed = 4;
+walkSpeed = 5;
 hp = 10;
 flash = 0;
 
@@ -10,3 +10,4 @@ cooldownAble = true; //can take damage from bomb
 cooldownBombTime = 120;
 cooldownBombAble = true;
 
+player2Score = 0;

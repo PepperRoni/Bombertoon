@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-walkSpeed = 4;
+walkSpeed = 5;
+collitionSpeed = 10;
+
+
 hp = 10;
 flash = 0;
 
@@ -14,4 +17,6 @@ playerdeathCooldownTime = 120;
 playerdeathCooldownAble = true;
 
 image_speed = 0;
+
+player1Score = 0;
 

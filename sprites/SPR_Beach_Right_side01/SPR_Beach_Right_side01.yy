@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 29,
+  "bbox_right": 599,
   "bbox_top": 0,
-  "bbox_bottom": 95,
+  "bbox_bottom": 1919,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 96,
+  "width": 640,
+  "height": 1920,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0d2b03a1-f762-4a6d-8cb2-1ca235a56985","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0d2b03a1-f762-4a6d-8cb2-1ca235a56985","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"LayerId":{"name":"9826e34f-d063-49f8-966a-22a004a85bc9","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"SPR_Beach_Right_side01","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"resourceVersion":"1.0","name":"0d2b03a1-f762-4a6d-8cb2-1ca235a56985","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"41b218ae-67c0-4686-8378-3e71e290284e","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"41b218ae-67c0-4686-8378-3e71e290284e","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"LayerId":{"name":"f40a6acd-6002-47d3-990f-0457c2177ea5","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"SPR_Beach_Right_side01","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"resourceVersion":"1.0","name":"41b218ae-67c0-4686-8378-3e71e290284e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"SPR_Beach_Right_side01","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3283d462-e3a6-4a3f-9a95-00223e6b3968","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0d2b03a1-f762-4a6d-8cb2-1ca235a56985","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2c3d6d9c-7801-4c1e-b6a8-c8107568ba69","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"41b218ae-67c0-4686-8378-3e71e290284e","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9826e34f-d063-49f8-966a-22a004a85bc9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f40a6acd-6002-47d3-990f-0457c2177ea5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "FloorBackground",
+    "path": "folders/Sprites/FloorBackground.yy",
   },
   "resourceVersion": "1.0",
   "name": "SPR_Beach_Right_side01",

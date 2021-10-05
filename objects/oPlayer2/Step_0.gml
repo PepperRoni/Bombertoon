@@ -54,22 +54,22 @@ if (playerSpeedH != 0 && playerSpeedY != 0)
 	playerSpeedY = 0;
 }
 
-if (place_meeting(x + playerSpeedH, y, oWall))
-{
-	 while (!place_meeting(x + sign(playerSpeedH), y, oWall))
-	{
-		x += sign(playerSpeedH);
-	}
-	playerSpeedH = 0;
-}
-if (place_meeting(x, y + + playerSpeedY, oWall))
-{
-	while (!place_meeting(x, y + sign(playerSpeedY), oWall))
-	{
-		y += sign(playerSpeedY);
-	}
-	playerSpeedY = 0;
-}
+//if (place_meeting(x + playerSpeedH, y, oWall))
+//{
+//	 while (!place_meeting(x + sign(playerSpeedH), y, oWall))
+//	{
+//		x += sign(playerSpeedH);
+//	}
+//	playerSpeedH = 0;
+//}
+//if (place_meeting(x, y + + playerSpeedY, oWall))
+//{
+//	while (!place_meeting(x, y + sign(playerSpeedY), oWall))
+//	{
+//		y += sign(playerSpeedY);
+//	}
+//	playerSpeedY = 0;
+//}
 
 x += playerSpeedH;
 y += playerSpeedY;
