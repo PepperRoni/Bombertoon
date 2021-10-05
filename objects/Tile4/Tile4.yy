@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTile",
-    "path": "sprites/sTile/sTile.yy",
+    "name": "sTile2",
+    "path": "sprites/sTile2/sTile2.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Tile2",
+  "name": "Tile4",
   "tags": [],
   "resourceType": "GMObject",
 }

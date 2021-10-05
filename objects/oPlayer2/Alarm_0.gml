@@ -4,4 +4,4 @@ cooldownAble = true;
 
 cooldownBombAble = true;
 
-playerdeathCooldownAble = true;
+playerdeathCooldownAble = false;
