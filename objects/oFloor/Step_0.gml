@@ -23,5 +23,4 @@ if(neutralFloor)
 {
 //image_index = 2;
 //player2Score += 100;
-//
 }
