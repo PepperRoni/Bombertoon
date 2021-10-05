@@ -4,5 +4,8 @@ walkSpeed = 4;
 hp = 10;
 flash = 0;
 
-cooldownTime = 50; //delay when colliding with a bomb
+cooldownTime = 60; //delay when colliding with a bomb
 cooldownAble = true; //can take damage from bomb
+
+cooldownBombTime = 120;
+cooldownBombAble = true;
