@@ -80,6 +80,7 @@ if cooldownAble == true
 			show_message("Boom");
 			instance_destroy(oBomb);
 		}
+		flash = 8;
 		alarm[0] = cooldownTime;
 		cooldownAble = false;
 	}
