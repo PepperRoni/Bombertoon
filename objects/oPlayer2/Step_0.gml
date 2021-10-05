@@ -98,11 +98,10 @@ if cooldownAble == true
 			show_message("Boom");
 			instance_destroy(oBomb);	
 			instance_deactivate_object(oPlayer2);
-			alarm[1];
+			
 			
 			alarm[0] = playerdeathCooldownTime;
 			
-		}		
 		}	
 		
 		flash = 8;
