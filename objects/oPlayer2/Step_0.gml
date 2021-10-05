@@ -74,7 +74,7 @@ if (place_meeting(x, y + + playerSpeedY, oWall))
 x += playerSpeedH;
 y += playerSpeedY;
 
-if cooldownBombAble == true
+if (cooldownBombAble == true)
 {
 	if(inp_Bomb)
 	{
@@ -84,7 +84,7 @@ if cooldownBombAble == true
 	}
 }
 
-if cooldownAble == true
+if (cooldownAble == true)
 {
 	if (place_meeting(x, y, oBomb))
 	{
@@ -98,23 +98,13 @@ if cooldownAble == true
 			show_message("Boom");
 			instance_destroy(oBomb);	
 			instance_deactivate_object(oPlayer2);
-			
-			
+		
 			alarm[0] = playerdeathCooldownTime;
-			
-		}	
+			playerdeathCooldownAble = false;			
+		}
 		
 		flash = 8;
 		alarm[0] = cooldownTime;
 		cooldownAble = false;
 	}
 }
-
-if (hp <=0 && playerdeathCooldownAble == true)
-{
-	instance_activate_object(oPlayer2);
-	hp = 10;
-	playerdeathCooldownAble = false;
-}
-
-

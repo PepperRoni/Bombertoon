@@ -28,6 +28,7 @@
     {"id":{"name":"sBackPlayer1","path":"sprites/sBackPlayer1/sBackPlayer1.yy",},"order":0,},
     {"id":{"name":"sTile3","path":"sprites/sTile3/sTile3.yy",},"order":3,},
     {"id":{"name":"SPR_Beach_Right_side01","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"order":9,},
+    {"id":{"name":"respawnP2","path":"objects/respawnP2/respawnP2.yy",},"order":10,},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},"order":5,},
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},"order":7,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":2,},

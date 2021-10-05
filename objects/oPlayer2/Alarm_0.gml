@@ -3,5 +3,3 @@
 cooldownAble = true;
 
 cooldownBombAble = true;
-
-playerdeathCooldownAble = false;
