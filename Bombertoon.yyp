@@ -23,6 +23,7 @@
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},"order":7,},
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},"order":10,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
+    {"id":{"name":"Explosion9","path":"sounds/Explosion9/Explosion9.yy",},"order":0,},
     {"id":{"name":"oStartButton","path":"objects/oStartButton/oStartButton.yy",},"order":3,},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},"order":7,},
     {"id":{"name":"sPlayer1","path":"sprites/sPlayer1/sPlayer1.yy",},"order":1,},
