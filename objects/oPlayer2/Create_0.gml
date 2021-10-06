@@ -12,6 +12,3 @@ cooldownBombTime = 120;
 cooldownBombAble = true;
 
 inUse2 = true;
-//player2Score = 0;
-
-//global.lives1 = 1;
