@@ -18,5 +18,5 @@ image_speed = 0;
 
 
 
-
+inUse = true;
 
