@@ -1,3 +1,3 @@
-levelTime = 6;
+levelTime = 120;
 timePassed = room_speed;
 
