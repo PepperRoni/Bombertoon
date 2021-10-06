@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 639,
   "bbox_top": 0,
-  "bbox_bottom": 94,
+  "bbox_bottom": 1899,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 96,
+  "width": 640,
+  "height": 1920,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e09af5d7-fd9b-4ece-a908-a0172ba19abe","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e09af5d7-fd9b-4ece-a908-a0172ba19abe","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"LayerId":{"name":"1a11a5b5-4711-478f-b54f-dabf6b4cfa98","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"SPR_Beac_Left_side01","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"resourceVersion":"1.0","name":"e09af5d7-fd9b-4ece-a908-a0172ba19abe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b9916b70-6b3e-49c8-baf9-7f68372e6dee","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b9916b70-6b3e-49c8-baf9-7f68372e6dee","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"LayerId":{"name":"19942952-d75c-4a56-b7d3-7e1d780e349e","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"SPR_Beac_Left_side01","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"resourceVersion":"1.0","name":"b9916b70-6b3e-49c8-baf9-7f68372e6dee","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"SPR_Beac_Left_side01","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2e512b0a-5115-422a-a8c2-8c085ca9a3ea","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e09af5d7-fd9b-4ece-a908-a0172ba19abe","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fb9d210e-bcfe-460a-97b8-98404c1f0c15","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b9916b70-6b3e-49c8-baf9-7f68372e6dee","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1a11a5b5-4711-478f-b54f-dabf6b4cfa98","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"19942952-d75c-4a56-b7d3-7e1d780e349e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "FloorBackground",
+    "path": "folders/Sprites/FloorBackground.yy",
   },
   "resourceVersion": "1.0",
   "name": "SPR_Beac_Left_side01",

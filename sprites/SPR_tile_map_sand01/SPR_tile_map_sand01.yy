@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "FloorBackground",
+    "path": "folders/Sprites/FloorBackground.yy",
   },
   "resourceVersion": "1.0",
   "name": "SPR_tile_map_sand01",

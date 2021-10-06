@@ -1,42 +1,40 @@
-/// @description Insert description here
-// You can write your code in this editor
-var keyLeft = keyboard_check(ord("A"));
-var keyRight = keyboard_check(ord("D"));
-var keyUp = keyboard_check(ord("W"));
-var keyDown = keyboard_check(ord("S"));
 
-inp_Bomb = keyboard_check_pressed(vk_space);
-
-var moveHorizontal = keyRight - keyLeft;
-var moveVertical = keyDown - keyUp;
-
-if (moveHorizontal < 0)
+if(inUse == true)
 {
+inp_Bomb = keyboard_check_pressed(vk_space);
+horizontalCheck = keyboard_check(ord("A")) + keyboard_check(ord("D"));
+
+if (keyboard_check(ord("A")) && place_free(x - collitionSpeed, y))
+{
+	x -= walkSpeed;
+	
 	image_speed = walkSpeed / 3;
 	sprite_index = sSidePlayer1;
 	if(image_xscale > 0)
-	{
-	image_xscale *= -1;
-	}
-	
+		{
+			image_xscale *= -1;
+		}
 }
-else if (moveHorizontal > 0)
+
+else if (keyboard_check(ord("D")) && place_free(x + collitionSpeed, y))
 {
+	x += walkSpeed;
 	image_speed = walkSpeed / 3;
 	sprite_index = sSidePlayer1;
 	if(image_xscale < 0)
-	{
-	image_xscale *= -1;
-	}
-	
+		{
+			image_xscale *= -1;
+		}
 }
-if (moveVertical < 0)
+if (keyboard_check(ord("W")) && place_free(x, y - collitionSpeed) && horizontalCheck == 0)
 {
+	y -= walkSpeed;
 	image_speed = walkSpeed / 3;
 	sprite_index = sBackPlayer1;
 }
-if (moveVertical > 0)
+if (keyboard_check(ord("S")) && place_free(x, y + collitionSpeed) && horizontalCheck == 0)
 {
+	y += walkSpeed;
 	image_speed = walkSpeed / 3;
 	sprite_index = sFrontPlayer1;	
 }
@@ -44,36 +42,7 @@ if (keyboard_check(vk_nokey))
 {
 	image_speed = 0;
 }
-
-playerSpeedH = moveHorizontal * walkSpeed;
-playerSpeedY = moveVertical * walkSpeed;
-
-if (playerSpeedH != 0 && playerSpeedY != 0)
-{
-	playerSpeedY = 0;
-}
-
-if (place_meeting(x + playerSpeedH, y, oWall))
-{
-	 while (!place_meeting(x + sign(playerSpeedH), y, oWall))
-	{
-		x += sign(playerSpeedH);
-	}
-	playerSpeedH = 0;
-}
-if (place_meeting(x, y + + playerSpeedY, oWall))
-{
-	while (!place_meeting(x, y + sign(playerSpeedY), oWall))
-	{
-		y += sign(playerSpeedY);
-	}
-	playerSpeedY = 0;
-}
-
-x += playerSpeedH;
-y += playerSpeedY;
-
-if cooldownBombAble == true
+if (cooldownBombAble == true)
 {
 	if(inp_Bomb)
 	{
@@ -83,7 +52,7 @@ if cooldownBombAble == true
 	}
 }
 
-if cooldownAble == true
+if (cooldownAble == true && inUseDelayTime == true)
 {
 	if (place_meeting(x, y, oBomb2))
 	{
@@ -93,21 +62,17 @@ if cooldownAble == true
 		}
 		//playerSpeedY *=-1;
 		if (hp<=0)
-		{			
+		{		
+			inUse = false;
+			inUseDelayTime = false;
+			alarm[1] = room_speed * 3;
+			alarm[2] = room_speed * 10;
 			show_message("Boom");
 			instance_destroy(oBomb2);
-			instance_deactivate_object(oPlayer);
-			alarm[0] = playerdeathCooldownTime;
-			playerdeathCooldownAble = false;
 		}
 		flash = 8;
 		alarm[0] = cooldownTime;
 		cooldownAble = false;
 	}
 }
-
-if (hp <=0 && playerdeathCooldownAble == true)
-{
-	instance_activate_object(oPlayer);
-	hp = 10;
 }
