@@ -62,6 +62,9 @@ if cooldownAble == true
 			show_message("Boom");
 			instance_destroy(oBomb2);
 			instance_deactivate_object(oPlayer);
+			instance_destroy(oBomb);
+			instance_deactivate_object(oPlayer2);
+			global.lives1 = 0;
 			alarm[0] = playerdeathCooldownTime;
 			playerdeathCooldownAble = false;
 		}
