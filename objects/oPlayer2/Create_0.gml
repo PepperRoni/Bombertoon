@@ -10,6 +10,7 @@ cooldownAble = true; //can take damage from bomb
 cooldownBombTime = 120;
 cooldownBombAble = true;
 
+inUse = true;
 //player2Score = 0;
 
-global.lives1 = 1;
+//global.lives1 = 1;

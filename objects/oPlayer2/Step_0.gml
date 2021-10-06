@@ -11,6 +11,8 @@ inp_Bomb = keyboard_check_pressed(vk_enter);
 var moveHorizontal = keyRight - keyLeft;
 var moveVertical = keyDown - keyUp;
 
+if (inUse == true)
+{
 if (moveHorizontal < 0)
 {
 	image_speed = walkSpeed / 3;
@@ -94,16 +96,27 @@ if cooldownAble == true
 		}
 		//playerSpeedY *=-1;
 		if (hp<=0)
-		{			
+		{	
+			inUse = false;
+			alarm[1] = room_speed * 3;
 			show_message("Boom");
 			instance_destroy(oBomb);
+			//global.lives1 = 0;
+			show_debug_message(global.lives1);
+			/*if (global.lives <= 0)
+			{
+			    global.lives -= 1;
+			    instance_create(x, y, respawnP1);
+			}
 			instance_deactivate_object(oPlayer2);
-			global.lives1 = 0;
-			alarm[0] = playerdeathCooldownTime;
-			playerdeathCooldownAble = false;
+			
+			//alarm[0] = playerdeathCooldownTime;
+			//playerdeathCooldownAble = false;
+			*/
 		}
 		flash = 8;
 		alarm[0] = cooldownTime;
 		cooldownAble = false;
 	}
+}
 }

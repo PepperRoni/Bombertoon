@@ -63,8 +63,8 @@ if cooldownAble == true
 			instance_destroy(oBomb2);
 			global.lives1 = 0;
 			instance_deactivate_object(oPlayer);
-			alarm[0] = playerdeathCooldownTime;
-			playerdeathCooldownAble = false;
+			//alarm[0] = playerdeathCooldownTime;
+			//playerdeathCooldownAble = false;
 		}
 		flash = 8;
 		alarm[0] = cooldownTime;
