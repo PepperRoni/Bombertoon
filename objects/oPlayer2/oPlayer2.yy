@@ -3,7 +3,7 @@
     "name": "sFrontPlayer2",
     "path": "sprites/sFrontPlayer2/sFrontPlayer2.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

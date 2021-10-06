@@ -3,9 +3,15 @@
 
 bombDestroyAble = true;
 
-with (instance_create_depth(x,y,depth,oFloorP1))
+with (instance_create_depth(x,y,depth + 10,oFloorP1))
 {
-image_index = random_range(0,3);
+	image_index = random_range(0,3);
+	if (place_meeting(x, y, oFloorP2))
+	{
+		instance_destroy(oFloorP2);
+		oScore2.player2ScoreDraw -= 100;
+	}
+
 }
 instance_destroy();
 

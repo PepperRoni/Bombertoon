@@ -1,7 +1,7 @@
 
 
 inp_Bomb = keyboard_check_pressed(vk_enter);
-horizontalCheck = keyboard_check(ord("A")) + keyboard_check(ord("D"));
+horizontalCheck = keyboard_check(vk_left) + keyboard_check(vk_right);
 
 if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y))
 //Variables for direction
