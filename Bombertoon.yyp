@@ -44,6 +44,7 @@
     {"id":{"name":"sSidePlayer1","path":"sprites/sSidePlayer1/sSidePlayer1.yy",},"order":2,},
     {"id":{"name":"sPurpleWin","path":"sprites/sPurpleWin/sPurpleWin.yy",},"order":0,},
     {"id":{"name":"L_Bottom","path":"sprites/L_Bottom/L_Bottom.yy",},"order":8,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":8,},
     {"id":{"name":"Tile4","path":"objects/Tile4/Tile4.yy",},"order":2,},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"sBackPlayer1","path":"sprites/sBackPlayer1/sBackPlayer1.yy",},"order":0,},
@@ -82,7 +83,11 @@
     {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+<<<<<<< Updated upstream
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+=======
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+>>>>>>> Stashed changes
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
