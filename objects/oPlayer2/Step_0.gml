@@ -43,36 +43,37 @@ if (keyboard_check(vk_nokey))
 {
 	image_speed = 0;
 }
-if cooldownBombAble == true
+if cooldownBombAble2 == true
 {
 	if(inp_Bomb)
 	{
 		instance_create_depth(x, y, depth, oBomb2);
-		alarm[0] = cooldownBombTime;
-		cooldownBombAble = false;
+		alarm[0] = cooldownBombTime2;
+		cooldownBombAble2 = false;
 	}
 }
 
-if cooldownAble == true
+if (cooldownAble2 == true && inUseDelayTime2 == true)
 {
 	if (place_meeting(x, y, oBomb))
 	{
-		if(cooldownBombAble == true)
+		if(cooldownBombAble2 == true)
 		{
 			hp -= 5;
 		}
 		//playerSpeedY *=-1;
 		if (hp<=0)
 		{		
-			inUse = false;
-			alarm[1] = room_speed * 2;
+			inUse2 = false;
+			inUseDelayTime2 = false;
+			alarm[1] = room_speed * 3;
+			alarm[2] = room_speed * 10;
 			show_message("Boom");
 			instance_destroy(oBomb);
 		}
 		flash = 8;
-		alarm[3] = cooldownTime;
-		cooldownAble = false;
+		alarm[0] = cooldownTime2;
+		cooldownAble2 = false;
 	}
 }
-
 }
