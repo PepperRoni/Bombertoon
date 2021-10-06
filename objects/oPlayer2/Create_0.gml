@@ -13,3 +13,6 @@ cooldownBombAble2 = true;
 
 inUse2 = true;
 inUseDelayTime2 = true;
+
+alphaValueWhenStunt = 0.5;
+modulusAlpha = 1;

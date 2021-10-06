@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.73,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Explosion9.wav",
-  "duration": 0.445896,
+  "soundFile": "CalamariSong.mp3",
+  "duration": 134.478363,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Explosion9",
+  "name": "CalamariSong",
   "tags": [],
   "resourceType": "GMSound",
 }

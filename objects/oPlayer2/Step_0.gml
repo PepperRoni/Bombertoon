@@ -80,3 +80,8 @@ if (cooldownAble2 == true && inUseDelayTime2 == true)
 	}
 }
 }
+if (inUse2 == false) 
+{
+	sprite_index = sParalizedP2;
+	image_speed = walkSpeed/3;
+}

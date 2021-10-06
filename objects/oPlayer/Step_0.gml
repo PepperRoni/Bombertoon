@@ -76,3 +76,8 @@ if (cooldownAble == true && inUseDelayTime == true)
 	}
 }
 }
+if (inUse == false) 
+{
+sprite_index = sParalizedP1;
+image_speed = walkSpeed/3;
+}

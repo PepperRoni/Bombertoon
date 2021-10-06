@@ -3,6 +3,7 @@
 
 bombDestroyAble = true;
 
+//Creates Splash
 with (instance_create_depth(x,y,depth + 10,oFloorP1))
 {
 	
@@ -18,6 +19,8 @@ with (instance_create_depth(x,y,depth + 10,oFloorP1))
 		}
 	}
 }
+
+//Players get damage from bombs
 with (instance_create_depth(x, y, depth, oExplotionDamage))
 {
 if (place_meeting(x, y , oPlayer))

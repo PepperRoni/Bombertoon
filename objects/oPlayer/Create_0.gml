@@ -21,3 +21,6 @@ inUse = true;
 
 inUseDelayTime = true;
 
+alphaValueWhenStunt = 0.5;
+modulusAlpha = 1;
+
