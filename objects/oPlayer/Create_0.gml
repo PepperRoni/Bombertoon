@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-walkSpeed = 2;
-collitionSpeed = 4;
-
-
+walkSpeed = 4;
 hp = 10;
 flash = 0;
 
@@ -13,11 +10,8 @@ cooldownAble = true; //can take damage from bomb
 cooldownBombTime = 120;
 cooldownBombAble = true;
 
+playerdeathCooldownTime = 120;
+playerdeathCooldownAble = true;
 
 image_speed = 0;
-
-
-inUse = true;
-
-inUseDelayTime = true;
 

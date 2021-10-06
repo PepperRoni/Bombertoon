@@ -3,7 +3,7 @@
     "name": "sBomb2",
     "path": "sprites/sBomb2/sBomb2.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
