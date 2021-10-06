@@ -30,16 +30,3 @@ if (levelTime == 0)
 	{
 	}
 }
-
-if (keyboard_check_pressed(vk_f1))
-{
-	room_goto(Room1);
-}
-if (keyboard_check_pressed(vk_f2))
-{
-	room_goto(Room2);
-}
-if (keyboard_check_pressed(vk_f3))
-{
-	room_goto(Room3);
-}
