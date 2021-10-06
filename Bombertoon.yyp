@@ -31,7 +31,6 @@
     {"id":{"name":"sBackPlayer1","path":"sprites/sBackPlayer1/sBackPlayer1.yy",},"order":0,},
     {"id":{"name":"sTile3","path":"sprites/sTile3/sTile3.yy",},"order":3,},
     {"id":{"name":"SPR_Beach_Right_side01","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"order":2,},
-    {"id":{"name":"respawnP2","path":"objects/respawnP2/respawnP2.yy",},"order":10,},
     {"id":{"name":"oFloorP2","path":"objects/oFloorP2/oFloorP2.yy",},"order":13,},
     {"id":{"name":"Player1","path":"sprites/Player1/Player1.yy",},"order":0,},
     {"id":{"name":"oFloorP1","path":"objects/oFloorP1/oFloorP1.yy",},"order":7,},

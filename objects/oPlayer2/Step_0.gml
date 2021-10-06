@@ -102,7 +102,6 @@ if cooldownAble == true
 			show_message("Boom");
 			instance_destroy(oBomb);
 			//global.lives1 = 0;
-			show_debug_message(global.lives1);
 			/*if (global.lives <= 0)
 			{
 			    global.lives -= 1;

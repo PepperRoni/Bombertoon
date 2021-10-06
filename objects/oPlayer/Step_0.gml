@@ -58,13 +58,9 @@ if cooldownAble == true
 		}
 		//playerSpeedY *=-1;
 		if (hp<=0)
-		{			
+		{		
 			show_message("Boom");
 			instance_destroy(oBomb2);
-			global.lives1 = 0;
-			instance_deactivate_object(oPlayer);
-			//alarm[0] = playerdeathCooldownTime;
-			//playerdeathCooldownAble = false;
 		}
 		flash = 8;
 		alarm[0] = cooldownTime;
