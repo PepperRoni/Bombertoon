@@ -31,13 +31,10 @@ if (levelTime == 0)
 	}
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 if (keyboard_check_pressed(vk_f1))
 {
 	
 }
-=======
->>>>>>> parent of f0064f3 (Map selector now possible)
 =======
 >>>>>>> parent of f0064f3 (Map selector now possible)
