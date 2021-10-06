@@ -5,6 +5,9 @@ if (inUse2 == true)
 inp_Bomb = keyboard_check_pressed(vk_enter);
 horizontalCheck = keyboard_check(vk_left) + keyboard_check(vk_right);
 
+//vi ska ha vertical check också
+verticalCheck = keyboard_check(vk_up) + keyboard_check(vk_down);
+
 
 if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y))
 {
@@ -23,9 +26,9 @@ else if (keyboard_check(vk_right) && place_free(x + collitionSpeed, y))
 	image_speed = walkSpeed / 3;
 	sprite_index = sSidePlayer2;
 	if(image_xscale < 0)
-		{
-			image_xscale *= -1;
-		}
+	{
+		image_xscale *= -1;
+	}
 }
 if (keyboard_check(vk_up) && place_free(x, y - collitionSpeed) && horizontalCheck == 0)
 {
