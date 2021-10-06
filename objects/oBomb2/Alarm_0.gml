@@ -3,5 +3,5 @@
 
 bombDestroyAble = true;
 
-instance_create_depth(x,y,depth,oFloor);
+instance_create_depth(x,y,depth,oFloorP2);
 instance_destroy();

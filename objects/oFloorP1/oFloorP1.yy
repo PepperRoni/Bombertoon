@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite9",
-    "path": "sprites/Sprite9/Sprite9.yy",
+    "name": "Player1",
+    "path": "sprites/Player1/Player1.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oFloor",
+  "name": "oFloorP1",
   "tags": [],
   "resourceType": "GMObject",
 }
