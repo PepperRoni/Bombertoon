@@ -3,7 +3,7 @@
 
 bombDestroyAble = true;
 
-with (instance_create_depth(x,y,depth,oFloor))
+with (instance_create_depth(x,y,depth,oFloorP1))
 {
 image_index = random_range(0,3);
 }
