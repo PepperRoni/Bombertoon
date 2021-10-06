@@ -4,5 +4,3 @@
 //show_debug_message("Nu ska vi komma tillbaka");
 //playerdeathCooldownAble = true;
 
-instance_activate_object(oPlayer2);
-alarm[0] = (room_speed * 5);

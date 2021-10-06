@@ -84,7 +84,7 @@ if (cooldownBombAble == true)
 	}
 }
 
-if (cooldownAble == true)
+if cooldownAble == true
 {
 	if (place_meeting(x, y, oBomb))
 	{
@@ -96,13 +96,12 @@ if (cooldownAble == true)
 		if (hp<=0)
 		{			
 			show_message("Boom");
-			instance_destroy(oBomb);	
+			instance_destroy(oBomb);
 			instance_deactivate_object(oPlayer2);
-		
-			//alarm[0] = playerdeathCooldownTime;
-			//playerdeathCooldownAble = false;			
+			global.lives1 = 0;
+			alarm[0] = playerdeathCooldownTime;
+			playerdeathCooldownAble = false;
 		}
-		
 		flash = 8;
 		alarm[0] = cooldownTime;
 		cooldownAble = false;
