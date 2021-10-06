@@ -1,3 +1,4 @@
+
 if(inUse == true)
 {
 inp_Bomb = keyboard_check_pressed(vk_space);
@@ -6,6 +7,11 @@ horizontalCheck = keyboard_check(ord("A")) + keyboard_check(ord("D"));
 if (keyboard_check(ord("A")) && place_free(x - collitionSpeed, y))
 {
 	x -= walkSpeed;
+	if (keyboard_check(vk_lcontrol))
+	{
+		walkSpeed = 15;
+		cooldownBombTime = 5;
+	}
 	image_speed = walkSpeed / 3;
 	sprite_index = sSidePlayer1;
 	if(image_xscale > 0)
@@ -13,6 +19,7 @@ if (keyboard_check(ord("A")) && place_free(x - collitionSpeed, y))
 			image_xscale *= -1;
 		}
 }
+
 else if (keyboard_check(ord("D")) && place_free(x + collitionSpeed, y))
 {
 	x += walkSpeed;

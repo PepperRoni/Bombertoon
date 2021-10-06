@@ -1,6 +1,7 @@
 
 if (inUse2 == true)
 {
+	
 inp_Bomb = keyboard_check_pressed(vk_enter);
 horizontalCheck = keyboard_check(vk_left) + keyboard_check(vk_right);
 
@@ -16,6 +17,7 @@ if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y))
 		}
 }
 else if (keyboard_check(vk_right) && place_free(x + collitionSpeed, y))
+
 {
 	x += walkSpeed;
 	image_speed = walkSpeed / 3;
@@ -72,4 +74,5 @@ if cooldownAble == true
 		cooldownAble = false;
 	}
 }
+
 }
