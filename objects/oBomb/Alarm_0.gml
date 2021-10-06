@@ -27,8 +27,10 @@ if (place_meeting(x, y , oPlayer))
 	{
 		oPlayer.flash = 8
 		oPlayer.hp -= 5;
+		if (oPlayer.hp > 0) audio_play_sound(Argh, 5, false);
 		if (oPlayer.hp<=0)
 		{		
+			oPlayer.paralizedSound = true;
 			oPlayer.inUse = false;
 			oPlayer.inUseDelayTime = false;
 			oPlayer.alarm[1] = room_speed * 3;
@@ -39,10 +41,13 @@ if (place_meeting(x, y , oPlayer))
 	}
 if (place_meeting(x, y , oPlayer2))
 	{
+		audio_play_sound(Argh, 5, false);
 		oPlayer2.flash = 8
 		oPlayer2.hp -=5;
+		if (oPlayer2.hp > 0) audio_play_sound(Argh, 5, false);
 		if (oPlayer2.hp<=0)
 		{		
+			oPlayer2.paralizedSound = true;
 			oPlayer2.inUse = false;
 			oPlayer2.inUseDelayTime = false;
 			oPlayer2.alarm[1] = room_speed * 3;
@@ -53,7 +58,7 @@ if (place_meeting(x, y , oPlayer2))
 	}
 	instance_destroy();
 }
-audio_play_sound(Explosion9, 10, false);
+audio_play_sound(LiquidExplotion, 6, false);
 instance_destroy();
 
 

@@ -18,9 +18,9 @@ image_speed = 0;
 
 
 inUse = true;
-
 inUseDelayTime = true;
 
 alphaValueWhenStunt = 0.5;
 modulusAlpha = 1;
 
+paralizedSound = false;

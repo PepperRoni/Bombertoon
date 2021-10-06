@@ -68,10 +68,10 @@ if (cooldownAble2 == true && inUseDelayTime2 == true)
 		if (hp<=0)
 		{		
 			inUse2 = false;
+			paralizedSound = true;
 			inUseDelayTime2 = false;
 			alarm[1] = room_speed * 3;
 			alarm[2] = room_speed * 10;
-			show_message("Boom");
 			instance_destroy(oBomb);
 		}
 		flash = 8;
@@ -82,6 +82,8 @@ if (cooldownAble2 == true && inUseDelayTime2 == true)
 }
 if (inUse2 == false) 
 {
+	if (paralizedSound) audio_play_sound(LiquidPlink, 3, false);
+	paralizedSound = false;
 	sprite_index = sParalizedP2;
 	image_speed = walkSpeed/3;
 }

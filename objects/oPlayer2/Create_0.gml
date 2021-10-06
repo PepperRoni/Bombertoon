@@ -16,3 +16,5 @@ inUseDelayTime2 = true;
 
 alphaValueWhenStunt = 0.5;
 modulusAlpha = 1;
+
+paralizedSound = false;
