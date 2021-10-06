@@ -1,16 +1,11 @@
 
-
-inp_Bomb = keyboard_check_pressed(vk_enter);
-horizontalCheck = keyboard_check(ord("A")) + keyboard_check(ord("D"));
-
-if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y))
-//Variables for direction
-
-inp_Bomb = keyboard_check_pressed(vk_enter);
-
-
 if (inUse2 == true)
 {
+inp_Bomb = keyboard_check_pressed(vk_enter);
+horizontalCheck = keyboard_check(vk_left) + keyboard_check(vk_right);
+
+
+
 if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y))
 {
 	x -= walkSpeed;
@@ -69,12 +64,12 @@ if cooldownAble == true
 		if (hp<=0)
 		{		
 			inUse = false;
-			alarm[1] = room_speed * 3;
+			alarm[1] = room_speed * 2;
 			show_message("Boom");
 			instance_destroy(oBomb);
 		}
 		flash = 8;
-		alarm[0] = cooldownTime;
+		alarm[3] = cooldownTime;
 		cooldownAble = false;
 	}
 }

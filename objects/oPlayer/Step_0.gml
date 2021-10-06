@@ -39,7 +39,7 @@ if (keyboard_check(vk_nokey))
 {
 	image_speed = 0;
 }
-if cooldownBombAble == true
+if (cooldownBombAble == true)
 {
 	if(inp_Bomb)
 	{
@@ -49,7 +49,7 @@ if cooldownBombAble == true
 	}
 }
 
-if cooldownAble == true
+if (cooldownAble == true && inUseDelayTime == true)
 {
 	if (place_meeting(x, y, oBomb2))
 	{
@@ -61,7 +61,9 @@ if cooldownAble == true
 		if (hp<=0)
 		{		
 			inUse = false;
+			inUseDelayTime = false;
 			alarm[1] = room_speed * 3;
+			alarm[2] = room_speed * 10;
 			show_message("Boom");
 			instance_destroy(oBomb2);
 		}
