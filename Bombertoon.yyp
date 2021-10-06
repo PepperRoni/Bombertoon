@@ -27,10 +27,19 @@
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"sBackPlayer1","path":"sprites/sBackPlayer1/sBackPlayer1.yy",},"order":0,},
     {"id":{"name":"sTile3","path":"sprites/sTile3/sTile3.yy",},"order":3,},
+<<<<<<< Updated upstream
     {"id":{"name":"SPR_Beach_Right_side01","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"order":9,},
     {"id":{"name":"respawnP2","path":"objects/respawnP2/respawnP2.yy",},"order":10,},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},"order":5,},
     {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},"order":7,},
+=======
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":10,},
+    {"id":{"name":"SPR_Beach_Right_side01","path":"sprites/SPR_Beach_Right_side01/SPR_Beach_Right_side01.yy",},"order":2,},
+    {"id":{"name":"oFloorP2","path":"objects/oFloorP2/oFloorP2.yy",},"order":3,},
+    {"id":{"name":"Player1","path":"sprites/Player1/Player1.yy",},"order":0,},
+    {"id":{"name":"oFloorP1","path":"objects/oFloorP1/oFloorP1.yy",},"order":2,},
+    {"id":{"name":"M_Right","path":"sprites/M_Right/M_Right.yy",},"order":5,},
+>>>>>>> Stashed changes
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":2,},
     {"id":{"name":"Explosion9","path":"sounds/Explosion9/Explosion9.yy",},"order":0,},
     {"id":{"name":"Tile3","path":"objects/Tile3/Tile3.yy",},"order":2,},
@@ -54,6 +63,11 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+>>>>>>> Stashed changes
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [

@@ -7,10 +7,17 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
+<<<<<<< Updated upstream
   "bbox_left": 2,
   "bbox_right": 93,
   "bbox_top": 4,
   "bbox_bottom": 29,
+=======
+  "bbox_left": 9,
+  "bbox_right": 22,
+  "bbox_top": 12,
+  "bbox_bottom": 81,
+>>>>>>> Stashed changes
   "HTile": false,
   "VTile": false,
   "For3D": false,
