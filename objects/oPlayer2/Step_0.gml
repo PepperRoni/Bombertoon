@@ -11,7 +11,7 @@ inp_Bomb = keyboard_check_pressed(vk_enter);
 var moveHorizontal = keyRight - keyLeft;
 var moveVertical = keyDown - keyUp;
 
-if (inUse == true)
+if (inUse2 == true)
 {
 if (moveHorizontal < 0)
 {
@@ -97,7 +97,7 @@ if cooldownAble == true
 		//playerSpeedY *=-1;
 		if (hp<=0)
 		{	
-			inUse = false;
+			inUse2 = false;
 			alarm[1] = room_speed * 3;
 			show_message("Boom");
 			instance_destroy(oBomb);

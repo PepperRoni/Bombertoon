@@ -1,4 +1,5 @@
-
+if(inUse == true)
+{
 inp_Bomb = keyboard_check_pressed(vk_space);
 horizontalCheck = keyboard_check(ord("A")) + keyboard_check(ord("D"));
 
@@ -59,6 +60,8 @@ if cooldownAble == true
 		//playerSpeedY *=-1;
 		if (hp<=0)
 		{		
+			inUse = false;
+			alarm[1] = room_speed * 3;
 			show_message("Boom");
 			instance_destroy(oBomb2);
 		}
@@ -66,4 +69,5 @@ if cooldownAble == true
 		alarm[0] = cooldownTime;
 		cooldownAble = false;
 	}
+}
 }
