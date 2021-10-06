@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Bombs",
+    "path": "folders/Objects/Bombs.yy",
   },
   "resourceVersion": "1.0",
   "name": "oFloorP1",

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Player2",
-    "path": "sprites/Player2/Player2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,17 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bombs",
-    "path": "folders/Objects/Bombs.yy",
+    "name": "Players",
+    "path": "folders/Objects/Players.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oFloorP2",
+  "name": "oScore2",
   "tags": [],
   "resourceType": "GMObject",
 }

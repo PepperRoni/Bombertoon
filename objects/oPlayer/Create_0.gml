@@ -18,7 +18,7 @@ playerdeathCooldownAble = true;
 
 image_speed = 0;
 
-player1Score = 0;
+
 
 global.lives1 = 1;
 

@@ -3,8 +3,8 @@
 image_speed = 0;
 image_index = 0;
 
-with (oPlayer)
+with (oScore2)
 	{
-		player1Score += 100;
+		player2ScoreDraw += 100;
 	}
 

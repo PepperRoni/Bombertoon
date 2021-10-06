@@ -1,0 +1,1 @@
+player1ScoreDraw = 0;
