@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-walkSpeed = 5;
-collitionSpeed = 10;
+walkSpeed = 3;
+collitionSpeed = 6;
 
 
 hp = 10;

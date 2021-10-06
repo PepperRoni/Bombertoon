@@ -1,5 +1,5 @@
-walkSpeed = 5;
-collitionSpeed = 10;
+walkSpeed = 3;
+collitionSpeed = 6;
 
 
 hp = 10;

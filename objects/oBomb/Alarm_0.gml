@@ -19,4 +19,5 @@ with (instance_create_depth(x,y,depth + 10,oFloorP1))
 	}
 }
 instance_destroy();
+audio_play_sound(Explosion9, 10, false);
 

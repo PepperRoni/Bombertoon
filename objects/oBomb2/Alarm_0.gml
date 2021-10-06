@@ -19,3 +19,4 @@ if (place_meeting(x, y, oFloorP1))
 	}
 }
 instance_destroy();
+audio_play_sound(Explosion9, 10, false)
