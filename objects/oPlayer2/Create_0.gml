@@ -16,5 +16,7 @@ playerdeathCooldownAble = true;
 
 image_speed = 0;
 
+inUse = true;
+//player2Score = 0;
 
-global.lives1 = 1;
+//global.lives1 = 1;

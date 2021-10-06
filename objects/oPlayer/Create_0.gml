@@ -13,12 +13,10 @@ cooldownAble = true; //can take damage from bomb
 cooldownBombTime = 120;
 cooldownBombAble = true;
 
-playerdeathCooldownTime = 120;
-playerdeathCooldownAble = true;
 
 image_speed = 0;
 
 
 
-global.lives1 = 1;
+
 
