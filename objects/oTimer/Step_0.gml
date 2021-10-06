@@ -1,6 +1,6 @@
 timePassed --;
 
-if (timePassed % room_speed == 0) 
+if (timePassed % room_speed == 0 && levelTime != 0) 
 {
 	levelTime --;
 }
@@ -9,7 +9,6 @@ if (levelTime == 0)
 {
 	finalPlayer1Score = oScore1.player1ScoreDraw;
 	finalPlayer2Score = oScore2.player2ScoreDraw;
-	levelTime ++;
 	oPlayer.inUse = false;
 	oPlayer2.inUse2 = false;
 	

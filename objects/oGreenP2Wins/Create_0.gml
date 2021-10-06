@@ -1,2 +1,2 @@
-x = 1000;
-y = 500;
+x = room_width / 2;
+y = room_height / 2;
