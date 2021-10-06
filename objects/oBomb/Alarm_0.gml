@@ -5,7 +5,10 @@ bombDestroyAble = true;
 
 with (instance_create_depth(x,y,depth + 10,oFloorP1))
 {
+	
 	image_index = random_range(0,3);
+	if (place_meeting(x, y, oFloorP2))
+	{
 	var inst = instance_place(x, y, oFloorP2);
 	if(inst != noone)
 	
@@ -13,6 +16,7 @@ with (instance_create_depth(x,y,depth + 10,oFloorP1))
 			instance_destroy(inst);
 			oScore2.player2ScoreDraw -= 100;
 		}
+	}
 }
 instance_destroy();
 
