@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 1,
-  "bbox_right": 13,
-  "bbox_top": 2,
-  "bbox_bottom": 15,
+  "bbox_right": 14,
+  "bbox_top": 1,
+  "bbox_bottom": 14,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f2f453db-712c-46b3-9df6-faec15e79b54","path":"sprites/Krabb2/Krabb2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f2f453db-712c-46b3-9df6-faec15e79b54","path":"sprites/Krabb2/Krabb2.yy",},"LayerId":{"name":"c47cbc43-5660-4959-8fa3-f8207f4894e9","path":"sprites/Krabb2/Krabb2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Krabb2","path":"sprites/Krabb2/Krabb2.yy",},"resourceVersion":"1.0","name":"f2f453db-712c-46b3-9df6-faec15e79b54","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eaf03b2f-530f-47be-bb0a-5d37653d6d70","path":"sprites/SandDollar/SandDollar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eaf03b2f-530f-47be-bb0a-5d37653d6d70","path":"sprites/SandDollar/SandDollar.yy",},"LayerId":{"name":"7a4abbe0-ec04-44c9-a765-bafa8b26140b","path":"sprites/SandDollar/SandDollar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"SandDollar","path":"sprites/SandDollar/SandDollar.yy",},"resourceVersion":"1.0","name":"eaf03b2f-530f-47be-bb0a-5d37653d6d70","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Krabb2","path":"sprites/Krabb2/Krabb2.yy",},
+    "spriteId": {"name":"SandDollar","path":"sprites/SandDollar/SandDollar.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"88244521-090a-4ac1-9f7e-405e4fa9da97","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2f453db-712c-46b3-9df6-faec15e79b54","path":"sprites/Krabb2/Krabb2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"36a8d8cf-f949-4c44-a524-71379d668111","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eaf03b2f-530f-47be-bb0a-5d37653d6d70","path":"sprites/SandDollar/SandDollar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Krabb2","path":"sprites/Krabb2/Krabb2.yy",},
+    "parent": {"name":"SandDollar","path":"sprites/SandDollar/SandDollar.yy",},
     "resourceVersion": "1.3",
-    "name": "Krabb2",
+    "name": "SandDollar",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c47cbc43-5660-4959-8fa3-f8207f4894e9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a4abbe0-ec04-44c9-a765-bafa8b26140b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Decorative.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Krabb2",
+  "name": "SandDollar",
   "tags": [],
   "resourceType": "GMSprite",
 }
