@@ -1,4 +1,4 @@
-levelTime = 120;
+levelTime = 10;
 timePassed = room_speed;
 // Alarm for oBombOften spawn
 alarm [0] = room_speed * 25;

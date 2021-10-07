@@ -20,6 +20,7 @@ if (levelTime == 0)
 	{
 		draw_self();
 	}
+	drawScreen = 2;
 	}
 	else if (finalPlayer1Score < finalPlayer2Score && drawScreen == 1)
 	{
@@ -27,7 +28,9 @@ if (levelTime == 0)
 	{
 		draw_self();
 	}
+	drawScreen = 2;
 	}
+	
 	else if (finalPlayer1Score == finalPlayer2Score && drawScreen == 1)
 	{
 		with(instance_create_layer (x, y, "WinLoseScreen", oTie))
@@ -36,6 +39,7 @@ if (levelTime == 0)
 	}
 	drawScreen = 2;
 	}
+	
 	
 	
 }
@@ -48,19 +52,19 @@ if (keyboard_check(vk_f1))
 randomX = random_range(room_width *0.33, room_width *0.66);
 randomY = random_range(room_height *0.33, room_height *0.66);
 
-if (keyboard_check(vk_f2))
-{
-	room_goto(Room1); //  <-- Luis bana
-}
-if (keyboard_check(vk_f3))
-{
-	room_goto(Astrid);
-}
-if (keyboard_check(vk_f4))
-{
-	room_goto(Jacob);
-}
-if (keyboard_check(vk_f5))
-{
-	room_goto(Olivia);
-}
+//if (keyboard_check(vk_f2))
+//{
+//	room_goto(Room1); //  <-- Luis bana
+//}
+//if (keyboard_check(vk_f3))
+//{
+//	room_goto(Astrid);
+//}
+//if (keyboard_check(vk_f4))
+//{
+//	room_goto(Jacob);
+//}
+//if (keyboard_check(vk_f5))
+//{
+//	room_goto(Olivia);
+//}
