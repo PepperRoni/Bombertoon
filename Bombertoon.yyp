@@ -56,6 +56,7 @@
     {"id":{"name":"sTile2","path":"sprites/sTile2/sTile2.yy",},"order":0,},
     {"id":{"name":"Mid","path":"sprites/Mid/Mid.yy",},"order":2,},
     {"id":{"name":"Top","path":"sprites/Top/Top.yy",},"order":1,},
+    {"id":{"name":"oSpawnPortal30s","path":"objects/oSpawnPortal30s/oSpawnPortal30s.yy",},"order":4,},
     {"id":{"name":"Fence2","path":"objects/Fence2/Fence2.yy",},"order":1,},
     {"id":{"name":"Map1","path":"objects/Map1/Map1.yy",},"order":0,},
     {"id":{"name":"sPortal","path":"sprites/sPortal/sPortal.yy",},"order":1,},
