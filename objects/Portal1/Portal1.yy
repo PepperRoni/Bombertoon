@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Portal2",
+  "name": "Portal1",
   "tags": [],
   "resourceType": "GMObject",
 }

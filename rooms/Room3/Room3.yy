@@ -13,7 +13,10 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"WinLoseScreen","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"Portal1","path":"objects/Portal1/Portal1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":160.0,"resourceVersion":"1.0","name":"inst_7F7D6996","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Portal2","path":"objects/Portal2/Portal2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":320.0,"resourceVersion":"1.0","name":"inst_3812CEA1","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"WinLoseScreen","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Tile3","path":"objects/Tile3/Tile3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":374.0,"y":268.0,"resourceVersion":"1.0","name":"inst_6234D469","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Tile3","path":"objects/Tile3/Tile3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":387.0,"y":53.0,"resourceVersion":"1.0","name":"inst_44A294F0","tags":[],"resourceType":"GMRInstance",},
@@ -412,6 +415,8 @@
     {"name":"inst_1C422227","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_4FA5F4D8","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_400D63ED","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_7F7D6996","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_3812CEA1","path":"rooms/Room3/Room3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
