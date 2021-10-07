@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.72,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "P1Ready.mp3",
-  "duration": 2.272653,
+  "soundFile": "P2Wins.mp3",
+  "duration": 2.533878,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "LastOnes",
+    "path": "folders/Sounds/LastOnes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "P1Ready",
+  "name": "P2Wins",
   "tags": [],
   "resourceType": "GMSound",
 }

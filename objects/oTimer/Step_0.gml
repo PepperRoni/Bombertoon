@@ -11,28 +11,33 @@ if (levelTime == 0)
 	finalPlayer2Score = oScore2.player2ScoreDraw;
 	oPlayer.inUse = false;
 	oPlayer2.inUse2 = false;
+	if(drawScreen == 0) drawScreen = 1;
 	
-	if(finalPlayer1Score > finalPlayer2Score)
-	{
+	
+	if(finalPlayer1Score > finalPlayer2Score && drawScreen == 1) //Otherwise keeps creating objects in loop
+	{		
 	with(instance_create_layer (x, y, "WinLoseScreen", oPurpleP1Wins))
 	{
 		draw_self();
 	}
 	}
-	else if (finalPlayer1Score < finalPlayer2Score)
+	else if (finalPlayer1Score < finalPlayer2Score && drawScreen == 1)
 	{
 		with(instance_create_layer (x, y, "WinLoseScreen", oGreenP2Wins))
 	{
 		draw_self();
 	}
 	}
-	else if (finalPlayer1Score == finalPlayer2Score)
+	else if (finalPlayer1Score == finalPlayer2Score && drawScreen == 1)
 	{
 		with(instance_create_layer (x, y, "WinLoseScreen", oTie))
 	{
 		draw_self();
 	}
+	drawScreen = 2;
 	}
+	
+	
 }
 
 if (keyboard_check(vk_f1))
