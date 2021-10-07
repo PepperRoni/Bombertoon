@@ -13,8 +13,8 @@
   "soundFile": "P1Ready.mp3",
   "duration": 2.272653,
   "parent": {
-    "name": "Bombertoon",
-    "path": "Bombertoon.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "P1Ready",
