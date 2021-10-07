@@ -53,6 +53,7 @@
     {"id":{"name":"Explotion","path":"sprites/Explotion/Explotion.yy",},"order":2,},
     {"id":{"name":"sBackPlayer2","path":"sprites/sBackPlayer2/sBackPlayer2.yy",},"order":1,},
     {"id":{"name":"SPR_Beach_MID_side01","path":"sprites/SPR_Beach_MID_side01/SPR_Beach_MID_side01.yy",},"order":1,},
+    {"id":{"name":"Roboto","path":"fonts/Roboto/Roboto.yy",},"order":0,},
     {"id":{"name":"Bottom","path":"sprites/Bottom/Bottom.yy",},"order":0,},
     {"id":{"name":"NA","path":"rooms/NA/NA.yy",},"order":10,},
     {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},"order":6,},
