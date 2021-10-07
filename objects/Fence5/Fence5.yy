@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTile",
-    "path": "sprites/sTile/sTile.yy",
+    "name": "Fences36373839",
+    "path": "sprites/Fences36373839/Fences36373839.yy",
   },
   "solid": true,
   "visible": true,
@@ -22,16 +22,21 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":32.0,"y":0.0,},
+    {"x":32.0,"y":32.0,},
+    {"x":0.0,"y":32.0,},
+  ],
   "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Rocks",
-    "path": "folders/Objects/Walls/Rocks.yy",
+    "name": "Fecnces",
+    "path": "folders/Objects/Walls/Fecnces.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Tile2",
+  "name": "Fence5",
   "tags": [],
   "resourceType": "GMObject",
 }

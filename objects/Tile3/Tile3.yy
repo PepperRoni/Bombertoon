@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/Walls.yy",
+    "name": "Rocks",
+    "path": "folders/Objects/Walls/Rocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "Tile3",
