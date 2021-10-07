@@ -5,10 +5,6 @@ if (inUse2 == true)
 inp_Bomb = keyboard_check_pressed(vk_enter);
 horizontalCheck = keyboard_check(vk_left) + keyboard_check(vk_right);
 
-//vi ska ha vertical check också
-verticalCheck = keyboard_check(vk_up) + keyboard_check(vk_down);
-
-
 if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y))
 {
 	x -= walkSpeed;

@@ -6,6 +6,11 @@
     {"id":{"name":"oExplotionDamage","path":"objects/oExplotionDamage/oExplotionDamage.yy",},"order":4,},
     {"id":{"name":"SPR_Beac_Left_side01","path":"sprites/SPR_Beac_Left_side01/SPR_Beac_Left_side01.yy",},"order":0,},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":2,},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"Portal","path":"objects/Portal/Portal.yy",},"order":9,},
+    {"id":{"name":"Fence1","path":"objects/Fence1/Fence1.yy",},"order":0,},
+>>>>>>> Stashed changes
     {"id":{"name":"sprSplash","path":"sprites/sprSplash/sprSplash.yy",},"order":4,},
     {"id":{"name":"Sprite41","path":"sprites/Sprite41/Sprite41.yy",},"order":13,},
     {"id":{"name":"oPurpleP1Wins","path":"objects/oPurpleP1Wins/oPurpleP1Wins.yy",},"order":0,},
@@ -32,6 +37,7 @@
     {"id":{"name":"sTile2","path":"sprites/sTile2/sTile2.yy",},"order":0,},
     {"id":{"name":"Mid","path":"sprites/Mid/Mid.yy",},"order":2,},
     {"id":{"name":"Top","path":"sprites/Top/Top.yy",},"order":1,},
+    {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},"order":17,},
     {"id":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},"order":6,},
     {"id":{"name":"This_is_not_over","path":"sounds/This_is_not_over/This_is_not_over.yy",},"order":7,},
     {"id":{"name":"sTile","path":"sprites/sTile/sTile.yy",},"order":1,},
@@ -46,6 +52,7 @@
     {"id":{"name":"Fences36373839","path":"sprites/Fences36373839/Fences36373839.yy",},"order":4,},
     {"id":{"name":"oSplash","path":"objects/oSplash/oSplash.yy",},"order":2,},
     {"id":{"name":"P2Ready","path":"sounds/P2Ready/P2Ready.yy",},"order":16,},
+    {"id":{"name":"Portal2","path":"objects/Portal2/Portal2.yy",},"order":10,},
     {"id":{"name":"SPR_tile_map_sand01","path":"sprites/SPR_tile_map_sand01/SPR_tile_map_sand01.yy",},"order":3,},
     {"id":{"name":"Fences","path":"sprites/Fences/Fences.yy",},"order":0,},
     {"id":{"name":"sSidePlayer1","path":"sprites/sSidePlayer1/sSidePlayer1.yy",},"order":2,},
