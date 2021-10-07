@@ -67,7 +67,6 @@
     {"id":{"name":"Explosion9","path":"sounds/Explosion9/Explosion9.yy",},"order":0,},
     {"id":{"name":"Tile3","path":"objects/Tile3/Tile3.yy",},"order":1,},
     {"id":{"name":"oStartButton","path":"objects/oStartButton/oStartButton.yy",},"order":0,},
-    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},"order":3,},
     {"id":{"name":"Fences363738","path":"sprites/Fences363738/Fences363738.yy",},"order":3,},
     {"id":{"name":"sGreenWin","path":"sprites/sGreenWin/sGreenWin.yy",},"order":1,},
     {"id":{"name":"sParalizedP2","path":"sprites/sParalizedP2/sParalizedP2.yy",},"order":3,},
@@ -91,9 +90,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
