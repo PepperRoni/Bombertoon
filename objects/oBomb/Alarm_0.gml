@@ -58,10 +58,7 @@ if (place_meeting(x, y , oPlayer2))
 	}
 	instance_destroy();
 }
-
 audio_play_sound(LiquidExplotion, 6, false);
-
-
 instance_destroy();
 
 
