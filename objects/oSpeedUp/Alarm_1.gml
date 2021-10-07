@@ -1,1 +1,0 @@
-oPlayer2.walkSpeed = 2;

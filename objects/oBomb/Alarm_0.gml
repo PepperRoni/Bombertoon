@@ -48,12 +48,12 @@ if (place_meeting(x, y , oPlayer2))
 		if (oPlayer2.hp<=0)
 		{		
 			oPlayer2.paralizedSound = true;
-			oPlayer2.inUse = false;
-			oPlayer2.inUseDelayTime = false;
+			oPlayer2.inUse2 = false;
+			oPlayer2.inUseDelayTime2 = false;
 			oPlayer2.alarm[1] = room_speed * 3;
 			oPlayer2.alarm[2] = room_speed * 10;
-			oPlayer2.alarm[0] = oPlayer2.cooldownTime;
-			oPlayer2.cooldownAble = false;
+			oPlayer2.alarm[0] = oPlayer2.cooldownTime2;
+			oPlayer2.cooldownAble0 = false;
 		}
 	}
 	instance_destroy();

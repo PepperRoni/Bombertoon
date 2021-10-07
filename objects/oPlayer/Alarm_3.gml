@@ -1,0 +1,1 @@
+cooldownBombTime /= 0.66;

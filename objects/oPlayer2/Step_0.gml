@@ -1,4 +1,15 @@
-
+if(delayBombOften == false) 
+{
+	cooldownBombTime *= 0.66;
+	alarm[3] = room_speed * 15
+	delayBombOften = true;
+}
+if(delaySpeedUp == false)
+{
+	walkSpeed *= 1.5;
+	alarm [4] = room_speed * 10;
+	delaySpeedUp = true;
+}
 if (inUse2 == true)
 {
 	

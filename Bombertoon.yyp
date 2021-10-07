@@ -46,6 +46,7 @@
     {"id":{"name":"sPortal","path":"sprites/sPortal/sPortal.yy",},"order":1,},
     {"id":{"name":"This_is_not_over","path":"sounds/This_is_not_over/This_is_not_over.yy",},"order":7,},
     {"id":{"name":"sTile","path":"sprites/sTile/sTile.yy",},"order":1,},
+    {"id":{"name":"Decorative","path":"rooms/Decorative/Decorative.yy",},"order":13,},
     {"id":{"name":"M_Left","path":"sprites/M_Left/M_Left.yy",},"order":6,},
     {"id":{"name":"Fence5","path":"objects/Fence5/Fence5.yy",},"order":4,},
     {"id":{"name":"oBomb","path":"objects/oBomb/oBomb.yy",},"order":0,},
@@ -117,6 +118,7 @@
     {"roomId":{"name":"NA","path":"rooms/NA/NA.yy",},},
     {"roomId":{"name":"Olivia","path":"rooms/Olivia/Olivia.yy",},},
     {"roomId":{"name":"Astrid","path":"rooms/Astrid/Astrid.yy",},},
+    {"roomId":{"name":"Decorative","path":"rooms/Decorative/Decorative.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

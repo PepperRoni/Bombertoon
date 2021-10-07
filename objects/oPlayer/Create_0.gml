@@ -24,3 +24,6 @@ alphaValueWhenStunt = 0.5;
 modulusAlpha = 1;
 
 paralizedSound = false;
+
+delayBombOften = true;
+delaySpeedUp = true;
