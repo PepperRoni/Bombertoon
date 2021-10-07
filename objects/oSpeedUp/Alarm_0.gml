@@ -1,0 +1,1 @@
+oPlayer.walkSpeed = 2;

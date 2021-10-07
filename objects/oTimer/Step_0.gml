@@ -36,6 +36,9 @@ if (keyboard_check(vk_f1))
 	room_goto(Room1);
 }
 
+randomX = random_range(room_width *0.33, room_width *0.66);
+randomY = random_range(room_height *0.33, room_height *0.66);
+
 if (keyboard_check(vk_f2))
 {
 	room_goto(Room2);

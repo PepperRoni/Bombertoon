@@ -1,0 +1,1 @@
+oPlayer.cooldownBombTime *= 1;
