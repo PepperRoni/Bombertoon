@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite45",
-    "path": "sprites/Sprite45/Sprite45.yy",
+    "name": "sPortal",
+    "path": "sprites/sPortal/sPortal.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "PowerUps",
+    "path": "folders/Objects/PowerUps.yy",
   },
   "resourceVersion": "1.0",
   "name": "Portal2",
