@@ -38,9 +38,8 @@ if (keyboard_check(vk_f1))
 
 if (keyboard_check(vk_f2))
 {
-	room_goto(Room2);
-}
-if (keyboard_check(vk_f3))
-{
 	room_goto(Room3);
 }
+
+randomX = random_range(10, room_width-5);
+randomY = random_range(10, room_height-5);
