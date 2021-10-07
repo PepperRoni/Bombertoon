@@ -33,7 +33,7 @@ if (levelTime == 0)
 
 if (keyboard_check(vk_f1))
 {
-	room_goto(Room1);
+	room_goto(Nia);
 }
 
 randomX = random_range(room_width *0.33, room_width *0.66);
@@ -41,9 +41,17 @@ randomY = random_range(room_height *0.33, room_height *0.66);
 
 if (keyboard_check(vk_f2))
 {
-	room_goto(Room2);
+	room_goto(Room1); //  <-- Luis bana
 }
 if (keyboard_check(vk_f3))
 {
-	room_goto(Room3);
+	room_goto(Astrid);
+}
+if (keyboard_check(vk_f4))
+{
+	room_goto(Jacob);
+}
+if (keyboard_check(vk_f5))
+{
+	room_goto(Olivia);
 }
