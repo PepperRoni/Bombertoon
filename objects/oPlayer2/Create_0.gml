@@ -21,3 +21,5 @@ paralizedSound = false;
 
 delayBombOften = true;
 delaySpeedUp = true;
+
+moveAfterMenu = true;

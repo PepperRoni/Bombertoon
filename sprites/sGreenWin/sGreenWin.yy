@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Win_Lose_Sprites",
-    "path": "folders/Sprites/Win_Lose_Sprites.yy",
+    "path": "folders/Sprites/StartScreen/Win_Lose_Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sGreenWin",

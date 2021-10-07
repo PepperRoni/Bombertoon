@@ -28,6 +28,10 @@ if (levelTime == 0)
 	}
 	else if (finalPlayer1Score == finalPlayer2Score)
 	{
+		with(instance_create_layer (x, y, "WinLoseScreen", oTie))
+	{
+		draw_self();
+	}
 	}
 }
 

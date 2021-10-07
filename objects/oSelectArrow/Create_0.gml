@@ -1,0 +1,1 @@
+arrowSelectorMovement = 1;

@@ -16,7 +16,7 @@ if (inUse2 == true)
 inp_Bomb = keyboard_check_pressed(vk_enter);
 horizontalCheck = keyboard_check(vk_left) + keyboard_check(vk_right);
 
-if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y))
+if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y) && moveAfterMenu == true)
 {
 	x -= walkSpeed;
 	image_speed = walkSpeed / 3;
@@ -26,7 +26,7 @@ if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y))
 			image_xscale *= -1;
 		}
 }
-else if (keyboard_check(vk_right) && place_free(x + collitionSpeed, y))
+else if (keyboard_check(vk_right) && place_free(x + collitionSpeed, y) && moveAfterMenu == true)
 
 {
 	x += walkSpeed;
@@ -37,13 +37,13 @@ else if (keyboard_check(vk_right) && place_free(x + collitionSpeed, y))
 		image_xscale *= -1;
 	}
 }
-if (keyboard_check(vk_up) && place_free(x, y - collitionSpeed) && horizontalCheck == 0)
+if (keyboard_check(vk_up) && place_free(x, y - collitionSpeed) && horizontalCheck == 0 && moveAfterMenu == true)
 {
 	y -= walkSpeed;
 	image_speed = walkSpeed / 3;
 	sprite_index = sBackPlayer2;
 }
-if (keyboard_check(vk_down) && place_free(x, y + collitionSpeed) && horizontalCheck == 0)
+if (keyboard_check(vk_down) && place_free(x, y + collitionSpeed) && horizontalCheck == 0 && moveAfterMenu == true)
 {
 	y += walkSpeed;
 	image_speed = walkSpeed / 3;
