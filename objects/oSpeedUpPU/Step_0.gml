@@ -1,5 +1,6 @@
 if(place_meeting(x,y,oPlayer))
 {
-	oPlayer.walkSpeed *= 2;
+	oPlayer.delaySpeedUp = false;
+	oPlayer.alarm [3] = room_speed * 5;
 	instance_destroy();
 }

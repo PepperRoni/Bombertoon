@@ -1,3 +1,5 @@
+if (delaySpeedUp == false) walkSpeed =3;
+else if (delaySpeedUp == true) walkSpeed = 2;
 
 if(inUse == true)
 {

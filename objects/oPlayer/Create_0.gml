@@ -4,6 +4,7 @@ walkSpeed = 2;
 collitionSpeed = 4;
 
 
+
 hp = 10;
 flash = 0;
 
@@ -24,3 +25,6 @@ alphaValueWhenStunt = 0.5;
 modulusAlpha = 1;
 
 paralizedSound = false;
+
+delaySpeedUp = true;
+delayBombUp = true;
