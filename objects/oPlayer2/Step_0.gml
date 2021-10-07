@@ -1,6 +1,6 @@
 if(delayBombOften == false) 
 {
-	cooldownBombTime *= 0.66;
+	cooldownBombTime2 *= 0.66;
 	alarm[3] = room_speed * 15
 	delayBombOften = true;
 }

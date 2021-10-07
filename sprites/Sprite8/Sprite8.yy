@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Waves",
+    "path": "folders/Sprites/Waves.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite8",
