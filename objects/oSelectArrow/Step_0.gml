@@ -28,12 +28,12 @@ if (right)
 	case 3:
 	x = Map3.x;
 	y = Map3.y - 70;
-	if(keyboard_check(vk_enter)) room_goto(Olivia)
+	if(keyboard_check(vk_enter)) room_goto(Astrid)
 	break;
 	case 4:
 	x = Map4.x;
 	y = Map4.y - 70;
-	if(keyboard_check(vk_enter)) room_goto(Astrid)
+	if(keyboard_check(vk_enter)) room_goto(Olivia)
 	break;
 	case 5:
 	x = Map5.x;

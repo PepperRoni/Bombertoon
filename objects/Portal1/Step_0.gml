@@ -23,6 +23,7 @@ if (place_meeting(x, y, oPlayer2))
 	{
 	oPlayer2.y = Portal2.y;
 	oPlayer2.x = Portal2.x;
+	audio_play_sound(Portal, 6, false);
 	
 	//alarm[0] = room_speed * 3;
 	portalAble = false;
