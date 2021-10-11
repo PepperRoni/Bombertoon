@@ -3,4 +3,4 @@
 show_debug_message("Nu ska vi komma tillbaka");
 inUse2 = true;
 
-audio_play_sound(This_is_not_over, 5, false);
+audio_play_sound(This_is_not_overP2_right_, 5, false);

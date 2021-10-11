@@ -1,1 +1,4 @@
-if(keyboard_check(vk_anykey)) room_goto(MapSelector);
+if(keyboard_check(vk_anykey) && coolDownResultScreen = true)
+	{
+		room_goto(InfoScreen);
+	}

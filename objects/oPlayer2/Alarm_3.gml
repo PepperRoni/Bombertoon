@@ -1,1 +1,1 @@
-oPlayer2.cooldownBombTime2 /= 0.66;
+oPlayer2.cooldownBombTime2 /= 0.4;

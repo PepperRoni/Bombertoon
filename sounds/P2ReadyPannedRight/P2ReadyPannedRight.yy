@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "This_is_not_over.mp3",
-  "duration": 1.854694,
+  "soundFile": "P2ReadyPannedRight.mp3",
+  "duration": 2.063673,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "This_is_not_over",
+  "name": "P2ReadyPannedRight",
   "tags": [],
   "resourceType": "GMSound",
 }

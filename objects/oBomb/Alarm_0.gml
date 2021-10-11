@@ -23,11 +23,14 @@ with (instance_create_depth(x,y,depth + 10,oFloorP1))
 //Players get damage from bombs
 with (instance_create_depth(x, y, depth, oExplotionDamage))
 {
-if (place_meeting(x, y , oPlayer))
+	if (place_meeting(x, y , oPlayer))
 	{
-		oPlayer.flash = 8
-		oPlayer.hp -= 5;
-		if (oPlayer.hp > 0) audio_play_sound(Argh, 5, false);
+		if (oPlayer.hp > 0 && oPlayer.inUseDelayTime == true)
+		{
+			audio_play_sound(ArghP1_Left, 5, false)
+			oPlayer.flash = 8
+			oPlayer.hp -= 5;
+		}
 		if (oPlayer.hp<=0)
 		{		
 			oPlayer.paralizedSound = true;
@@ -39,12 +42,14 @@ if (place_meeting(x, y , oPlayer))
 			oPlayer.cooldownAble = false;
 		}
 	}
-if (place_meeting(x, y , oPlayer2))
+	if (place_meeting(x, y , oPlayer2))
 	{
-		audio_play_sound(Argh, 5, false);
-		oPlayer2.flash = 8
-		oPlayer2.hp -=5;
-		if (oPlayer2.hp > 0) audio_play_sound(Argh, 5, false);
+		if (oPlayer2.hp > 0 && oPlayer2.inUseDelayTime2 == true) 
+		{
+			audio_play_sound(ArghP2_Right, 5, false);
+			oPlayer2.flash = 8
+			oPlayer2.hp -=5;
+		}
 		if (oPlayer2.hp<=0)
 		{		
 			oPlayer2.paralizedSound = true;

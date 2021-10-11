@@ -17,27 +17,27 @@ if (right)
 	{	
 	case 1:
 	x = Map1.x;
-	y = Map1.y - 70;
+	y = Map1.y - 50;
 	if(keyboard_check(vk_enter)) room_goto(Nia)
 	break;
 	case 2:
 	x = Map2.x;
-	y = Map2.y - 70;
+	y = Map2.y - 50;
 	if(keyboard_check(vk_enter)) room_goto(Jacob)
 	break;
 	case 3:
 	x = Map3.x;
-	y = Map3.y - 70;
+	y = Map3.y - 50;
 	if(keyboard_check(vk_enter)) room_goto(Astrid)
 	break;
 	case 4:
 	x = Map4.x;
-	y = Map4.y - 70;
+	y = Map4.y - 50;
 	if(keyboard_check(vk_enter)) room_goto(Olivia)
 	break;
 	case 5:
 	x = Map5.x;
-	y = Map5.y - 70;
+	y = Map5.y - 50;
 	if(keyboard_check(vk_enter)) room_goto(Luis)
 	break;
 	}

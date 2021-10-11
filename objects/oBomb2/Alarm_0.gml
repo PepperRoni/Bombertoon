@@ -6,13 +6,12 @@ bombDestroyAble = true;
 //Creates Splash
 with (instance_create_depth(x,y,depth + 10, oFloorP2))
 {
-	
 	image_index = random_range(0,3);
 
-if (place_meeting(x, y, oFloorP1))
+	if (place_meeting(x, y, oFloorP1) )
 	{
-	var inst = instance_place(x, y, oFloorP1);
-	if(inst != noone)
+		var inst = instance_place(x, y, oFloorP1);
+		if(inst != noone)
 		{
 			instance_destroy(inst);
 			oScore1.player1ScoreDraw -= 100;
@@ -26,10 +25,13 @@ with (instance_create_depth(x, y, depth, oExplotionDamage))
 {
 if (place_meeting(x, y , oPlayer))
 	{
+		if (oPlayer.hp > 0&& oPlayer.inUseDelayTime == true)
+		{
+			audio_play_sound(ArghP1_Left, 5, false)
+			oPlayer.flash = 8
+			oPlayer.hp -= 5;
+		}
 		
-		oPlayer.flash = 8
-		oPlayer.hp -= 5;
-		if (oPlayer.hp > 0) audio_play_sound(Argh, 5, false);
 		if (oPlayer.hp<=0)
 		{		
 			oPlayer.inUse = false;
@@ -43,10 +45,12 @@ if (place_meeting(x, y , oPlayer))
 	}
 if (place_meeting(x, y , oPlayer2))
 	{
-		if (oPlayer2.hp > 0) audio_play_sound(Argh, 5, false);
-		oPlayer2.flash = 8
-		oPlayer2.hp -=5;
-		if (oPlayer2.hp > 0) audio_play_sound(Argh, 5, false);
+		if (oPlayer2.hp > 0 && oPlayer2.inUseDelayTime2 == true) 
+		{
+			audio_play_sound(ArghP2_Right, 5, false);
+			oPlayer2.flash = 8
+			oPlayer2.hp -=5;
+		}
 		if (oPlayer2.hp<=0)
 		{		
 			oPlayer2.paralizedSound = true;

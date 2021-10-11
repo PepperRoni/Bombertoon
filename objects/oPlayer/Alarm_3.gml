@@ -1,1 +1,1 @@
-cooldownBombTime /= 0.66;
+cooldownBombTime /= 0.4;

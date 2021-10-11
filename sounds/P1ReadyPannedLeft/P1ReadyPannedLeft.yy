@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Argh.wav",
-  "duration": 2.4,
+  "soundFile": "P1ReadyPannedLeft.mp3",
+  "duration": 2.011429,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Argh",
+  "name": "P1ReadyPannedLeft",
   "tags": [],
   "resourceType": "GMSound",
 }

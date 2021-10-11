@@ -1,6 +1,6 @@
 if(delayBombOften == false) 
 {
-	cooldownBombTime2 *= 0.66;
+	cooldownBombTime2 *= 0.4;
 	alarm[3] = room_speed * 15
 	delayBombOften = true;
 }
@@ -12,10 +12,10 @@ if(delaySpeedUp == false)
 }
 if (inUse2 == true)
 {
-	
 inp_Bomb = keyboard_check_pressed(vk_enter);
-horizontalCheck = keyboard_check(vk_left) + keyboard_check(vk_right);
 
+//Movement
+horizontalCheck = keyboard_check(vk_left) + keyboard_check(vk_right);
 if (keyboard_check(vk_left) && place_free(x - collitionSpeed, y) && moveAfterMenu == true)
 {
 	x -= walkSpeed;
@@ -53,6 +53,8 @@ if (keyboard_check(vk_nokey))
 {
 	image_speed = 0;
 }
+
+//Dropping Bomb
 if cooldownBombAble2 == true
 {
 	if(inp_Bomb)
@@ -63,13 +65,15 @@ if cooldownBombAble2 == true
 	}
 }
 
+//Bomb Collision
 if (cooldownAble2 == true && inUseDelayTime2 == true)
 {
 	if (place_meeting(x, y, oBomb))
 	{
 		if(cooldownBombAble2 == true)
 		{
-			hp -= 5;
+			audio_play_sound(ArghP2_Right, 5, false)
+			hp -= 5;			
 		}
 		//playerSpeedY *=-1;
 		if (hp<=0)
@@ -94,3 +98,6 @@ if (inUse2 == false)
 	sprite_index = sParalizedP2;
 	image_speed = walkSpeed/3;
 }
+
+//Reset Hp
+if (hp <= 0) hp = 10;

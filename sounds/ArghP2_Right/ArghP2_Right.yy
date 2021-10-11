@@ -1,23 +1,23 @@
 {
   "compression": 0,
-  "volume": 0.72,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
-  "type": 1,
+  "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "P1Ready.mp3",
-  "duration": 2.272653,
+  "soundFile": "ArghP2_Right.mp3",
+  "duration": 1.436735,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "P1Ready",
+  "name": "ArghP2_Right",
   "tags": [],
   "resourceType": "GMSound",
 }
